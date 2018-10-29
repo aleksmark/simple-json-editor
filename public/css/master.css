@@ -1,0 +1,9 @@
+#jsoneditor {
+    height: 300px;
+}
+
+#btn-save {
+    display: none;
+    width: 200px;
+    margin-top: 50px;
+}

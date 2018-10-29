@@ -20,6 +20,11 @@ RUN curl -sS https://getcomposer.org/installer | \
     php -- --install-dir=/usr/local/bin --filename=composer && \
     chmod +x /usr/local/bin/composer
 
+RUN curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh && \
+    bash nodesource_setup.sh && \
+    apt-get -qq install nodejs && \
+    rm nodesource_setup.sh
+
 WORKDIR /var/www
 
 RUN mkdir /var/run/php/

@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::redirect('/', '/game', 301);
+
+Route::group(['as' => 'game-', 'prefix' => 'game'], function () {
+    Route::get('/',  function () {
+        return view('games.index');
+    });
 });

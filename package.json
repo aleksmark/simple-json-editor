@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "dependencies": {
+    "laravel-elixir": "^6.0.0-9",
+    "gulp": "^3.9.1",
+    "jsoneditor": "^5.25.0"
+  }
+}
