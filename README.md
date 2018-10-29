@@ -24,7 +24,7 @@ https://docs.docker.com/v1.11/compose/install/
 
 Clone the project
 ```
-$ git clone git@bitbucket.org:aleks_mark/simple-json-editor.git
+$ git clone git@github.com:aleksmark/simple-json-editor.git
 $ cd simple-json-editor
 ```
 
