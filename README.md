@@ -1,6 +1,6 @@
 # Simple JSON editor #
 
-Simple JSON editor
+The json is fetched from the database and injected into user friendly json editor where it can be changed and saved
 
 ## Environment
 

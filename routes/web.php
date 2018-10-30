@@ -14,7 +14,6 @@
 Route::redirect('/', '/game', 301);
 
 Route::group(['as' => 'game-', 'prefix' => 'game'], function () {
-    Route::get('/',  function () {
-        return view('games.index');
-    });
+    Route::get('/', ['as' => 'list', 'uses' => 'GamesController@index']);
+    Route::post('/{id}/update', ['as' => 'update', 'uses' => 'GamesController@update']);
 });
