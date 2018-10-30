@@ -19,7 +19,7 @@ class GameRepository
     }
 
     /**
-     * Get the list of users
+     * Get the list of games
      *
      * @return Collection
      */
@@ -29,7 +29,7 @@ class GameRepository
     }
 
     /**
-     * Get user by id
+     * Get game by id
      *
      * @param int $id
      *

@@ -2,6 +2,8 @@
 
 The json is fetched from the database and injected into user friendly json editor where it can be changed and saved
 
+![alt text](https://github.com/aleksmark/simple-json-editor/blob/master/public/screen.png)
+
 ## Environment
 
 - PHP 7.0

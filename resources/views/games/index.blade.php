@@ -16,7 +16,9 @@
 
                 <ul class="list-group">
                     @foreach ($games as $game)
-                        <button type="button" class="btn-game list-group-item" value='{{ $game->settings }}' game-id="{{ $game->id }}">ID: {{ $game->id }}</button>
+                        <button type="button" class="btn-game list-group-item" value='{{ $game->settings }}' game-id="{{ $game->id }}">
+                            ID: {{ $game->id }}
+                        </button>
                     @endforeach
                 </ul>
 
